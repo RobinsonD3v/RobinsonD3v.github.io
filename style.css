@@ -1,0 +1,50 @@
+:root{
+  /* palette claire et douce */
+  --bg: #F9F8F6;
+  --text: #2C2F33;
+  --accent: #3D82B5;
+  --orange: #F6AF5F;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+h1{
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 2rem auto 1rem;
+  text-align: center;
+  color: var(--accent);
+}
+
+p{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+em{
+  color: var(--orange);
+  font-style: normal;
+  font-weight: 600;
+}
+
+code, pre{
+  display: block;
+  font-family: "Fira Code", monospace;
+  background: #E7F1F7;
+  color: var(--accent);
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 2rem auto;
+  font-size: 0.9rem;
+}
