@@ -1,0 +1,86 @@
+.home_1{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 2.6rem;
+	margin-top: 84px;
+	align-items:start;
+}
+
+.home_1 img{
+	width: 32%;
+	margin-left: 1rem;
+	max-width: 380px;
+	object-fit: contain;
+	border-radius: 6px; /* un petit arrondi */
+  	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre légère */
+}
+.home_1 p{
+	text-align: justify;
+	margin: 18px 22px;
+	padding: 0;
+	width: 100%;
+	font-size: 1.1rem;
+}
+.home_1 .txt{
+	width: 58%;
+	padding-top: 20px;
+}
+.home_1 h1{
+	text-align: left;
+	margin-top: 6px;
+	margin-bottom: 4px;
+	width: 100%;
+	font-size: 1.4rem;
+}
+h2{
+	font-size: 1.4rem;
+	color: var(--bleu);
+	text-align: center;
+	margin: 60px 0px;
+}
+.home_2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 1rem;
+	margin-top: 20px;
+}
+
+.home_2 iframe{
+	display: block;
+	width: 38%;
+	max-width: 512px;
+	aspect-ratio: 16 / 9;
+	margin-top: 40px;
+	border-radius: 6px; /* un petit arrondi */
+  	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre légère */
+}
+.home_2 p{
+	padding: 10px 4px;
+	font-size: 1.1rem;
+	text-align: justify;
+}
+.home_2 .txt{
+	width: 56%;
+}
+.accent{
+	color: var(--bleu);
+	font-weight: bold;
+}
+.wiki{
+	text-decoration: underline;
+	color: var(--bleu);
+	transition: color .2s ease;
+}
+.wiki:visited{
+	color: var(--bleu);
+}
+.wiki:hover{
+	color: var(--orange);
+	transition: color .2s ease;
+}
+
+.salut{
+	text-align: left;
+	margin: 0px 0px 14px 0px;
+}
