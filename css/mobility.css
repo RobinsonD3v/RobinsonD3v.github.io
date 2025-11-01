@@ -1,0 +1,59 @@
+h2{
+	font-size: 1.6rem;
+	font-family: "Nunito", sans-serif;
+	color: var(--bleu);
+	text-align: left;
+	margin: 0px 0px 40px 0px;
+}
+.proj_1{
+  width: 100%;
+  margin: 50px auto 24%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.proj_1 .txt{
+  width: 52%;
+  margin: 20px 0px 0px 5%;
+}
+
+.proj_1 .txt p{
+  margin: 14px 8px 14px 16px;
+  color: var(--text);
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.accent{
+  color: var(--bleu);
+  font-weight: bold;
+}
+
+.proj_1 .media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj_1 img{
+  width: 50%;
+  height: auto;
+  display: block;
+  border-radius: 6px; /* un petit arrondi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre légère */
+}
+.media figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media figcaption {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 8px;
+  text-align: center;
+  font-style: italic;
+}

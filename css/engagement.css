@@ -7,7 +7,7 @@ h2{
 }
 .proj_1{
   width: 100%;
-  margin: 50px auto;
+  margin: 64px auto 23%;
 
   display: flex;
   justify-content: space-around;
@@ -15,7 +15,8 @@ h2{
 }
 
 .proj_1 .txt{
-  width: 54%;
+  width: 56%;
+  margin: 0px 0px 0px 5%;
 }
 
 .proj_1 .txt p{
@@ -31,25 +32,28 @@ h2{
   font-weight: bold;
 }
 
-
+.proj_1 .media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .proj_1 img{
-  max-width: clamp(220px, 20vw, 360px);
+  width: 50%;
   height: auto;
   display: block;
+  border-radius: 6px; /* un petit arrondi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ombre légère */
 }
-.proj_2{
-	margin-top: 80px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
+.media figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.proj_2 .txt{
-  width: 54%;
-}
-.proj_2 .txt p{
-  margin: 14px 8px 7% 16px;
-  color: var(--text);
-  font-size: 1.1em;
-  text-align: justify;
-  line-height: 1.6;
+
+.media figcaption {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 8px;
+  text-align: center;
+  font-style: italic;
 }
