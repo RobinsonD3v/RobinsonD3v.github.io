@@ -68,8 +68,23 @@ h2{
 	font-family: "Nunito", sans-serif;
 	font-size: 1.7em;
 }
+.photos{
+  margin: 60px 0px;
+  margin-bottom: 80px;
+}
 .photos p{
 	margin: 20px 200px;
 	font-size: 1.14em;
 	text-align: justify;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 60px;
+}
+.gallery img{
+  width: 24%;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
 }
